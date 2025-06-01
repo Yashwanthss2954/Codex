@@ -95,7 +95,7 @@ class App extends Component {
       else if(this.state.python.split('#').length - 1 === 1){
         const comment = this.state.python.split('#')[1].split('\n')[0];
         // post request
-        axios.post("http://127.0.0.1:9000/codify", { text : comment })
+        axios.post("https://5325-2406-b400-b1-7ad1-f8ea-5051-79fd-fd5.ngrok-free.app/codify", { text : comment })
         .then(res => {
           console.log(res.data);
           if(res.data.code){
