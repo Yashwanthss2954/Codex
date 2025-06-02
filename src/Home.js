@@ -42,7 +42,7 @@ class Home extends React.Component{
                 <div class="header">
                     <h2 class="text-center">
                         <i class="fas fa-code"></i>
-                        Codify
+                        Codex
                     </h2>
                     <h5 class="tagline">
                         <span>Instantly</span> Convert your <span>Thoughts</span> into <span>Code</span>
